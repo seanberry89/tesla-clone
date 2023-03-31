@@ -322,7 +322,6 @@ footer .mobile-footer li a:focus {
 }
 
 /* Media Queries */
-
 @media(max-width: 1200px) {
   .navbar ul {
     display: none;

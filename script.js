@@ -6,6 +6,14 @@ const body = document.querySelector('body');
 const fadedBack = document.getElementById('faded-background');
 const downBtn = document.getElementById('down-btn');
 
+const contentOne = document.getElementById('showcase-content-1');
+const contentTwo = document.getElementById('showcase-content-2');
+const contentThree = document.getElementById('showcase-content-3');
+const contentFour = document.getElementById('showcase-content-4');
+const contentFive = document.getElementById('showcase-content-5');
+const contentSix = document.getElementById('showcase-content-6');
+const contentSeven = document.getElementById('showcase-content-7');
+
 
 // Refresh DOM to Page Top
 window.onbeforeunload = () => {
@@ -70,6 +78,10 @@ window.addEventListener("scroll", () => {
 
   // scroll to the first section
   if(window.scrollY < 300){
+
+    contentOne.style.opacity = "100%";
+    contentTwo.style.opacity = "0";
+
     if(timer !== null){
       clearTimeout(timer);
     };
@@ -84,6 +96,11 @@ window.addEventListener("scroll", () => {
 
   // scroll to the second section
   } else if(window.scrollY > 300 && window.scrollY < 900){
+
+    contentOne.style.opacity = "0";
+    contentTwo.style.opacity = "100%";
+    contentThree.style.opacity = "0";
+
     if(timer !== null){
       clearTimeout(timer);
     };
@@ -98,6 +115,11 @@ window.addEventListener("scroll", () => {
 
   // scroll to the third section
   } else if(window.scrollY > 900 && window.scrollY < 1600){
+
+    contentTwo.style.opacity = "0";
+    contentThree.style.opacity = "100%";
+    contentFour.style.opacity = "0";
+
     if(timer !== null){
       clearTimeout(timer);
     };
@@ -112,6 +134,11 @@ window.addEventListener("scroll", () => {
 
     // scroll to the fourth section
   } else if(window.scrollY > 1600 && window.scrollY < 2250){
+
+    contentThree.style.opacity = "0";
+    contentFour.style.opacity = "100%";
+    contentFive.style.opacity = "0";
+
     if(timer !== null){
       clearTimeout(timer);
     };
@@ -126,6 +153,11 @@ window.addEventListener("scroll", () => {
 
     // scroll to the fifth section
   } else if(window.scrollY > 2250 && window.scrollY < 2900){
+
+    contentFour.style.opacity = "0";
+    contentFive.style.opacity = "100%";
+    contentSix.style.opacity = "0";
+
     if(timer !== null){
       clearTimeout(timer);
     };
@@ -140,6 +172,11 @@ window.addEventListener("scroll", () => {
 
     // scroll to the sixth section
   } else if(window.scrollY > 2900 && window.scrollY < 3500){
+
+    contentFive.style.opacity = "0";
+    contentSix.style.opacity = "100%";
+    contentSeven.style.opacity = "0";
+
     if(timer !== null){
       clearTimeout(timer);
     };
@@ -154,6 +191,10 @@ window.addEventListener("scroll", () => {
 
     // scroll to the last section
   } else if(window.scrollY > 3500 && window.scrollY < 4400){
+
+    contentSix.style.opacity = "0";
+    contentSeven.style.opacity = "100%";
+
     if(timer !== null){
       clearTimeout(timer);
     };
