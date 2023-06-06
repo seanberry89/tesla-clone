@@ -59,6 +59,7 @@ button {
   padding: 5px 20px;
   background-color: transparent;
   transition: background-color 0.5s ease-in-out;
+  cursor: pointer;
 }
 
 .navbar ul li a:hover {
@@ -73,7 +74,7 @@ button {
   margin-left: 25px;
 }
 
-.side-menu {
+.side-menu-button {
   display: none;
   font-size: 16px;
   background-color: rgba(0, 0, 0, 0.1);
@@ -85,13 +86,12 @@ button {
   transition: background-color 0.3s ease-in-out;
 }
 
-.side-menu:hover {
+.side-menu-button:hover {
   background-color:rgba(0, 0, 0, 0.2);
   height: 30px;
   width: 75px;
   border: none;
   border-radius: 10px;
-  cursor: pointer;
 }
 
 /* Aside Navigation */
@@ -117,6 +117,7 @@ aside button {
   background: #fff;
   border: none;
   padding: 12px;
+  cursor: pointer;
 }
 
 aside button:hover {
@@ -130,6 +131,7 @@ aside a {
   font-weight: 500;
   text-decoration: none;
   padding: 10px 15px;
+  cursor: pointer;
 }
 
 aside a:hover {
@@ -228,7 +230,7 @@ aside a:hover {
 }
 
 .down-btn {
-  visibility: hidden;
+  display: none;
   margin-top: 70px;
   cursor: pointer;
   background: transparent;
@@ -237,7 +239,7 @@ aside a:hover {
 }
 
 .down-btn.onload {
-  visibility: visible;
+  display: block;
 }
 
 .showcase-2 {
@@ -313,6 +315,7 @@ footer .desktop-footer li a,
 footer .mobile-footer li a {
   font-size: 13px;
   padding: 30px 10px;
+  cursor: pointer;
 }
 
 footer .desktop-footer li a:focus,
@@ -321,18 +324,18 @@ footer .mobile-footer li a:focus {
   padding: 0px 10px;
 }
 
-/* Media Queries */
+
 @media(max-width: 1200px) {
   .navbar ul {
     display: none;
   }
 
-  .side-menu {
+  .side-menu-button {
     display: inline-block;
   }
 }
 
-@media(max-width: 600px) {
+@media (max-width: 600px) {
   .navbar .brand-image svg {
     margin-left: 5px;
   }
@@ -349,7 +352,7 @@ footer .mobile-footer li a:focus {
   }
 
   .down-btn {
-    margin: 30px 0px;
+    display: none;
   }
 
   .accessories {
@@ -372,4 +375,5 @@ footer .mobile-footer li a:focus {
     text-align: center;
     margin-top: 25px;
   }
+
 }
