@@ -1,4 +1,5 @@
 # Tesla Homepage Clone
+[![Netlify Status](https://api.netlify.com/api/v1/badges/642f5ea3-64a6-4b8b-a4ee-880d65aaf131/deploy-status)](https://app.netlify.com/sites/spiffy-druid-169b53/deploys)
 
 ### Description
 
@@ -10,7 +11,7 @@ An application that demonstrates the remake of the Tesla homepage. No frameworks
 * CSS
 * JavaScript
 
-### Instructions
+### Traverse the UI
 
 ![Home](/Images/project-images/tesla-homepage.png)
 
@@ -18,4 +19,4 @@ An application that demonstrates the remake of the Tesla homepage. No frameworks
 
 ![Accessories](/Images/project-images/tesla-accessories.png)
 
-### Other
+[Live Demo](https://teslaclone.com)
