@@ -129,7 +129,7 @@ window.addEventListener("scroll", () => {
 
     timer = setTimeout(() => {
       window.scrollTo({
-        top: 1300,
+        top: 1296,
         left: 0,
         behavior: "smooth"
       });
@@ -148,7 +148,7 @@ window.addEventListener("scroll", () => {
 
     timer = setTimeout(() => {
       window.scrollTo({
-        top: 1950,
+        top: 1944,
         left: 0,
         behavior: "smooth"
       });
@@ -167,7 +167,7 @@ window.addEventListener("scroll", () => {
 
     timer = setTimeout(() => {
       window.scrollTo({
-        top: 2600,
+        top: 2590,
         left: 0,
         behavior: "smooth"
       });
@@ -186,7 +186,7 @@ window.addEventListener("scroll", () => {
 
     timer = setTimeout(() => {
       window.scrollTo({
-        top: 3250,
+        top: 3236,
         left: 0,
         behavior: "smooth"
       });
